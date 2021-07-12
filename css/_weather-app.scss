@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+      font-size: 10px;
+      //10 px = 1rem
+      font-family: Georgia, "Times New Roman", Times, serif;
+      color: rgb(85, 78, 78);
+  }
+  
+  body{
+      height: 100%;
+      width: 100%;
+      background: rgba(187,246,250,1);
+      background: linear-gradient(to right, rgba(187,246,250,1) 0%, rgba(77,210,250,1) 47%, rgba(221,230,179,1) 82%, rgba(251,223,147,1) 97%, rgba(251,223,147,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbf6fa', endColorstr='#fbdf93', GradientType=1 );
+      font-size: 1.7rem;
+    }
+
+
+.weatherApp{  
+    width: 32rem;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 11px 9px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 9px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 9px -10px rgba(0,0,0,0.75);
+    transition: 1s;
+    padding: 1rem 3rem;
+    &:hover{
+        margin-top: 8%;
+    }
+    // weatherApp-location
+    &-location{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        //weatherApp-location__timezone
+        &__timezone{}
+    }
+    // weatherApp-temperature
+    &-temperature{
+        // weatherApp-temperature__degree
+        &__degree{
+            display: flex;
+            justify-content: center;  
+            font-size: 3rem;  
+            margin-bottom: 1rem;    
+        }
+        // weatherApp-temperature__description
+        &__description{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 2rem;
+        }
+    }
+     // weatherApp degree
+    #degree{}
+    // weatherApp degree units
+    #units{}
+    // weatherApp temperature description
+    #description{
+        color: rgb(204, 10, 10);
+        font-size: 1.9rem;
+    }
+}
+  
+

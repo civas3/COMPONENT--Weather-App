@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #554e4e; }
+
+body {
+  height: 100%;
+  width: 100%;
+  background: #bbf6fa;
+  background: linear-gradient(to right, #bbf6fa 0%, #4dd2fa 47%, #dde6b3 82%, #fbdf93 97%, #fbdf93 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbf6fa', endColorstr='#fbdf93', GradientType=1 );
+  font-size: 1.7rem; }
+
+.weatherApp {
+  width: 32rem;
+  margin: auto;
+  margin-top: 10%;
+  background-color: rgba(255, 255, 255, 0.452);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 11px 9px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 11px 9px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 11px 9px -10px rgba(0, 0, 0, 0.75);
+  transition: 1s;
+  padding: 1rem 3rem; }
+  .weatherApp:hover {
+    margin-top: 8%; }
+  .weatherApp-location {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .weatherApp-temperature__degree {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 1rem; }
+  .weatherApp-temperature__description {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem; }
+  .weatherApp #description {
+    color: #cc0a0a;
+    font-size: 1.9rem; }
