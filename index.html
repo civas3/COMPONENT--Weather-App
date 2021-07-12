@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body >
+
+    <section class="weatherApp">
+        <div class="weatherApp-location">
+            <h2 class="weatherApp-location__timezone"></h2>
+            <!--weather icon -->
+            <canvas id="icon1" width="128" height="128"></canvas>
+        </div>
+        <div class="weatherApp-temperature">
+            <div class="weatherApp-temperature__degree">
+                  <!-- weather degree temperature -->
+                <h3 id="degree"></h3>
+                <!-- weather degree unit -->
+                <span id="units">F</span>
+            </div>
+            <div class="weatherApp-temperature__description">
+                  <!-- weather temperature description -->
+                <span id="description"> Sunny Warm </span>
+            </div>
+        </div>
+    </section>
+
+<script src="js/skycons.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
